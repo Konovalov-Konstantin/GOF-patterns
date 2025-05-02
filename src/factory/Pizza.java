@@ -1,4 +1,4 @@
-package fabrica;
+package factory;
 
 public abstract class Pizza {
 
