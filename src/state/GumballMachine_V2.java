@@ -25,7 +25,7 @@ public class GumballMachine_V2 {
      */
     State soldState;
 
-    State state;   // текущее состояние
+    State state;            // текущее состояние
     int count = 0;          // количество шариков в автомате
 
     /* Все объекты State создаются и инициализируются в конструкторе */
@@ -67,12 +67,14 @@ public class GumballMachine_V2 {
         }
     }
 
-    public int getCount() {
-        return count;
+    public void refill(int count) {
+        this.count += count;
+        System.out.println("Автомат пополнен на " + count + " жвачек");
+        state.refill();
     }
 
-    public void setCount(int count) {
-        this.count = count;
+    public int getCount() {
+        return count;
     }
 
     public void setState(State state) {

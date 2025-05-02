@@ -32,4 +32,8 @@ public class HasQuarterState implements State {
     public void dispense() {
         System.out.println("Жевательная резинка не выдается");
     }
+
+    @Override
+    public void refill() {
+    }
 }

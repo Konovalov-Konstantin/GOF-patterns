@@ -30,6 +30,9 @@ public class NoQuarterState implements State {
     @Override
     public void dispense() {
         System.out.println("Сначала положите монетку");
+    }
 
+    @Override
+    public void refill() {
     }
 }

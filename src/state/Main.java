@@ -26,5 +26,8 @@ public class Main {
         gumballMachine.insertQuarter();
         gumballMachine.turnCrank();
         System.out.println(gumballMachine);
+
+        gumballMachine.refill(5);
+        System.out.println(gumballMachine);
     }
 }

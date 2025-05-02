@@ -30,4 +30,9 @@ public class SoldOutState implements State {
     public void dispense() {
         System.out.println("Жвачка закончилась");
     }
+
+    @Override
+    public void refill() {
+        gumballMachine.setState(gumballMachine.getNoQuarterState());
+    }
 }
