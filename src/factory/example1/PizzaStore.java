@@ -1,4 +1,4 @@
-package factory;
+package factory.example1;
 
 public abstract class PizzaStore {      // пиццерия
 

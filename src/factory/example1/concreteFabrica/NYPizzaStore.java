@@ -1,12 +1,12 @@
-package factory.concreteFabrica;
+package factory.example1.concreteFabrica;
 
-import factory.ConcretePizza.NYStyleCheesePizza;
-import factory.ConcretePizza.NYStylePepperoniPizza;
-import factory.Pizza;
-import factory.PizzaStore;
+import factory.example1.ConcretePizza.NYStyleCheesePizza;
+import factory.example1.ConcretePizza.NYStylePepperoniPizza;
+import factory.example1.Pizza;
+import factory.example1.PizzaStore;
 
-import static factory.PizzaStore.pizzaType.CHEESE;
-import static factory.PizzaStore.pizzaType.PEPPERONI;
+import static factory.example1.PizzaStore.pizzaType.CHEESE;
+import static factory.example1.PizzaStore.pizzaType.PEPPERONI;
 
 public class NYPizzaStore extends PizzaStore {
 

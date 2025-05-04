@@ -1,6 +1,6 @@
-package factory.ConcretePizza;
+package factory.example1.ConcretePizza;
 
-import factory.Pizza;
+import factory.example1.Pizza;
 
 public class NYStylePepperoniPizza extends Pizza {
     public NYStylePepperoniPizza() {

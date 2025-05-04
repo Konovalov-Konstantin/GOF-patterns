@@ -1,7 +1,7 @@
-package factory;
+package factory.example1;
 
-import factory.concreteFabrica.ChicagoPizzaStore;
-import factory.concreteFabrica.NYPizzaStore;
+import factory.example1.concreteFabrica.ChicagoPizzaStore;
+import factory.example1.concreteFabrica.NYPizzaStore;
 
 public class Main {
     public static void main(String[] args) {
