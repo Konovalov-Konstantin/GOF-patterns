@@ -1,6 +1,6 @@
-package strategy.behaviors.impl;
+package strategy.example1.behaviors.impl;
 
-import strategy.behaviors.FlyBehavior;
+import strategy.example1.behaviors.FlyBehavior;
 
 public class FlyNoWay implements FlyBehavior {
     @Override

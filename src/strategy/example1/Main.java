@@ -1,6 +1,6 @@
-package strategy;
+package strategy.example1;
 
-import strategy.behaviors.impl.FlyRocketPowered;
+import strategy.example1.behaviors.impl.FlyRocketPowered;
 
 public class Main {
     public static void main(String[] args) {

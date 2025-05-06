@@ -1,6 +1,6 @@
-package strategy.behaviors.impl;
+package strategy.example1.behaviors.impl;
 
-import strategy.behaviors.QuackBehavior;
+import strategy.example1.behaviors.QuackBehavior;
 
 public class Squeak implements QuackBehavior {
     @Override
